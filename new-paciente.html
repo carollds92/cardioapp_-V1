@@ -94,7 +94,7 @@
                     </button>
 
                     <!-- Page Heading -->
-                    <h1 class="h3 text-gray-800">Pacientes</h1>
+                    <h1 class="h3 text-gray-800">Cadastro de Pacientes</h1>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -188,28 +188,29 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
- 
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                            <div class="input-group">
-                                <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary" type="button">
-                                        <i class="fas fa-search fa-sm"></i>
-                                    </button>
-                                </div>
+                    <form class="user">
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="Nome">
                             </div>
-                        </form>
-                        <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                            <a href="new-paciente.html" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-                            <i class="fas fa-user-plus fa-sm text-white-50"></i> Novo Paciente</a>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control form-control-user" id="exampleLastName"  placeholder="Sobrenome">
+                            </div>
                         </div>
-                    </div>
-                <!-- aqui eh pra ficar os nós, cada nó é um cadastro feito pelo app q está conectado a um sensor-->
-
-
-                </div>
-
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="E-mail">
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Senha">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repetir senha">
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-user btn-block"> OK </a>
+                    </form>
+                    <hr>
 
             </div>
             <!-- End of Main Content -->
